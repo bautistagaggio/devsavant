@@ -66,18 +66,21 @@ so that I would be taken to the Devsavant's website
 
    
 - Bautista Gaggiotti - bautistagaggiotti@gmail.com
-- For running all the test within the project, just execute the following command in your terminal: mvn test
+- For running all the tests within the project, just execute the following command in your terminal: mvn test
 - For running the World time API tests only, just execute the following command in your terminal: mvn -Dtest=WorldTimeapi test
 - For running the Scenario Outline Tests only, just execute the following command in your terminal: mvn -Dtest=ScenarioOutline test
 - For running the Devsavant website Tests only, just execute the following command in your terminal: mvn -Dtest=devsavant test
-- Screenshots will be located in the "Screenshots" folder
+- Screenshots will be located in the "Screenshots" folder, inside the main directory.
 - The chromedriver executable has to be located in /src/test/resources/devsavantautomationtest/chromedriver
-- Utils.java contains methods that abstract all the complexity    
+- Utils.java file hosts all the methods that are then called from the tests scripts, encapsulating the complexity and specific implementations of the actions that are conducted during those tests.   
     
 
 ### Disclaimers
 - For the sake of **time** and **practicity**:
-    - 
+    1. The repository was migrated to github.
+    2. Taking into account they are meant to be negative, API tests are based only in content and status codes.
+    3. Cucumber file contains one test, this being quasi symbolic. 
+     
 
 
 
