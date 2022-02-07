@@ -8,7 +8,7 @@ Background:
     
 2.  # providing an incorrect baseurl
     Scenario: Check invalid url
-        Given the user hits the endpoint {hostname}/api/timezone
+        Given the user hits the endpoint {hostname}/api/timezon
         When providing and invalid url
         Then a client message "Not found" will show up
         And the http code error will be a 404
