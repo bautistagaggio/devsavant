@@ -17,7 +17,7 @@ Background:
    # providing a region that does not exist
     Scenario: Check invalid region
 
-        Given I hit {hostname}/api/timezone/America/Bogota 
+        Given I hit {hostname}/api/timezone/Ameri/Bogota 
         When providing and invalid region
         And executing the request to the API
         Then a client message "Not found" will show up
@@ -26,7 +26,7 @@ Background:
     # providing a city that does not exist
     Scenario: Check invalid city 
 
-        Given I hit {hostname}/api/timezone/America/Bogota 
+        Given I hit {hostname}/api/timezone/America/Bogot 
         When providing and invalid city
         And executing the request to the API
         Then a client message "Not found" will show up
