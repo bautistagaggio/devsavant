@@ -18,7 +18,7 @@ public class Worldtimeapi
     public void testGeneralEndpoint() {
         
         try {
-        URL url = new URL ("http://worldtimeapi.org/api/timezo"); 
+        URL url = new URL ("http://worldtimeapi.org/api/timezon"); 
         connection = (HttpURLConnection) url.openConnection();
 
         utils.establishConnection(connection);
