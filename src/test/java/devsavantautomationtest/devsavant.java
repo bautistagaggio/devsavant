@@ -18,8 +18,6 @@ public class devsavant
         System.setProperty("webdriver.chrome.driver", "./src/test/resources/devsavantautomationtest/chromedriver/chromedriver.exe");
         driver = new ChromeDriver();
         baseUrl = "https://google.com";
-        
-        
     }
 
     @Test
@@ -39,7 +37,6 @@ public class devsavant
     public void tearDown() 
     {
         driver.quit();
-
     }
   
 }
