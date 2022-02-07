@@ -77,9 +77,9 @@ so that I would be taken to the Devsavant's website
 
 ### Disclaimers
 - For the sake of **time** and **practicity**:
-    1. The repository was migrated to github.
-    2. Taking into account they are meant to be negative, API tests are based only in content and status codes.
-    3. Cucumber file contains one test, this being quasi symbolic. 
+    - The repository was migrated to github.
+    - Taking into account they are meant to be negative, API tests are based only in content and status codes.
+    - Cucumber file contains one test, this being quasi symbolic. 
      
 
 
