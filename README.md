@@ -64,20 +64,20 @@ so that I would be taken to the Devsavant's website
 
 ### Challengue
 
-    1. 
-        - Bautista Gaggiotti - bautistagaggiotti@gmail.com
-        - For running all the test within the project, just execute the following command in your terminal: mvn test
-        - For running the World time API tests only, just execute the following command in your terminal: mvn -Dtest=WorldTimeapi test
-        - For running the Scenario Outline Tests only, just execute the following command in your terminal: mvn -Dtest=ScenarioOutline test
-        - For running the Devsavant website Tests only, just execute the following command in your terminal: mvn -Dtest=devsavant test
-        - Screenshots will be located in the "Screenshots" folder
-        - The chromedriver executable has to be located in /src/test/resources/devsavantautomationtest/chromedriver
-        - Utils.java contains methods that abstract all the complexity    
+   
+- Bautista Gaggiotti - bautistagaggiotti@gmail.com
+- For running all the test within the project, just execute the following command in your terminal: mvn test
+- For running the World time API tests only, just execute the following command in your terminal: mvn -Dtest=WorldTimeapi test
+- For running the Scenario Outline Tests only, just execute the following command in your terminal: mvn -Dtest=ScenarioOutline test
+- For running the Devsavant website Tests only, just execute the following command in your terminal: mvn -Dtest=devsavant test
+- Screenshots will be located in the "Screenshots" folder
+- The chromedriver executable has to be located in /src/test/resources/devsavantautomationtest/chromedriver
+- Utils.java contains methods that abstract all the complexity    
     
 
 ### Disclaimers
-    - For the sake of **time** and **practicity**:
-        - 
+- For the sake of **time** and **practicity**:
+    - 
 
 
 
