@@ -80,6 +80,7 @@ so that I would be taken to the Devsavant's website
     - The repository was migrated to github.
     - Taking into account they are meant to be negative, API tests are based only in content and status codes.
     - Cucumber file contains only one test, this being quasi symbolic. For implementing a full BBD solution, the best way to do it is associate each test step with a method, implicating further code reshaping.
+    - More variables and methods need to be created and realocated for the project to be scalable in terms of further testing efforts.
      
 
 
