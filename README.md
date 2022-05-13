@@ -62,17 +62,26 @@ so that I would be taken to the Devsavant's website
 5. The test should run and show results along with the other tests when executing `mvn test` command
 6. Add a mechanism to run only the Devsavant website test
 
-### Part 4
+### Challengue
 
-1. Modify this `README.md` file in order to add the following information at the top of the file:
-    - Your given name, surname and email
-    - How to run the World Time API tests only
-    - How to run the Scenario Outline tests only
-    - How to run the Devsavant website test only
-    - The expected location of the file containing the screen capture of the Devsavant website
-    - Any other information you consider relevant from your implementation of this challenge
-2. Push your work to the repo
-3. Create a pull request from your repo to the main project
-4. Send an email with a link to the project in your personal repo. Make sure it is set to public.
+   
+- Bautista Gaggiotti - bautistagaggiotti@gmail.com
+- For running all the tests within the project, just execute the following command in your terminal: `mvn test`
+- For running the **World time API** tests only, just execute the following command in your terminal: `mvn -Dtest=WorldTimeapi test`
+- For running the **Scenario Outline** Tests only, just execute the following command in your terminal: `mvn -Dtest=ScenarioOutline test`
+- For running the **Devsavant website** Tests only, just execute the following command in your terminal: `mvn -Dtest=devsavant test`
+- Screenshots will be located in the "Screenshots" folder, inside the main directory.
+- The chromedriver executable has to be located in `/src/test/resources/devsavantautomationtest/chromedriver` directory
+- Utils.java file hosts all the methods that are then called from the tests scripts, encapsulating the complexity and specific implementations of the actions that are conducted during those tests.   
+    
 
-Best of luck!
+### Disclaimers
+- For the sake of **time** and **practicity**:
+    - The repository was migrated to github.
+    - Taking into account they are meant to be negative, API tests are based only in content and status codes.
+    - Cucumber file contains only one test, this being quasi symbolic. For implementing a **full** BDD solution, the best way to do it is associate each test step with a method, implicating further code reshaping.
+    - More variables and methods need to be created and realocated for the project to be scalable in terms of further testing efforts.
+     
+
+
+
